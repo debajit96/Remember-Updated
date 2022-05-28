@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+	<title>TRACES | Login</title>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+	
+		
+	<meta http-equiv="Cache-Control" content="no-cache" />
+	<meta http-equiv="Cache-control" content="no-store" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<meta name="description" content="CPC TDS Portal, Income Tax Returns Correction" />
+	<meta name="keywords" content="Government of India, Correction, Returns" />	
+	
+	<link rel="stylesheet" type="text/css" href="https://downloads.tdscpc.gov.in/css/reset.css" media="screen" />
+	
+
+	<link rel="stylesheet" type="text/css" href="https://downloads.tdscpc.gov.in/css/jquery-ui.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="https://downloads.tdscpc.gov.in/css/common-blue.css" media="screen" />
+        
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="https://downloads.tdscpc.gov.in/css/ie.css" media="screen" />
+	<![endif]--></head>
+
+<div class="container">
+	<div class="header">
+	<div id="topheader">
+			<ul id="top_left">
+				<li><a href="/app/redirecturlnoauth.xhtml?url=/home.html" title="Home">Home</a>
+				</li>
+				<li class="separatorLeft"></li>
+				<li><a href="/app/redirecturlnoauth.xhtml?url=/aboutus.html" title="About Us">About Us</a>
+				</li>
+				<li class="separatorLeft"></li>
+				<li><a href="/app/redirecturlnoauth.xhtml?url=/contactus.html" title="Contact Us">Contact Us</a>
+				</li>
+				<li class="separatorLeft"></li>
+				<li><a href="/app/redirecturlnoauth.xhtml?url=/e-tutorial-deductor.html" title="e-Tutorials">e-Tutorials</a>
+				</li>
+				<li class="separatorLeft"></li>
+				<li class="related">
+					<ul id="cssdropdown">	
+						<li class="mainitems marTop-2"><span class="padBottom5">Related Links</span><span class="downarrowclass"></span>
+							<ul class="subuls top20">
+								<li><a href="https://www.tin-nsdl.com/" target="_blank" class="first" title="Repository of nationwide tax related information">Tax Information Network</a>
+								</li>
+								<li><a href="http://www.incometaxindia.gov.in/" target="_blank" title="National website which is a comprehensive database of all ITD data">Income Tax Department</a>
+								</li>
+								<li><a href="https://www.incometax.gov.in/iec/foportal/" target="_blank" class="first" title="This site has been set up as part of the e-governance action plan of the Income Tax Department">Income Tax e-filing</a>
+								</li>
+								<li><a href="https://www.incometaxindia.gov.in/Pages/default.aspx" target="_blank" title="Complete digest of various ITD related publications">Directorate of Income Tax (PR)</a>
+								</li>
+								<li><a href="http://www.india.gov.in/" target="_blank" title="Single window access to information and services being provided by various Indian Government Entities">National Portal of India</a>
+								</li>
+								<li><a href="http://www.nadt.gov.in/" target="_blank" title="Provides information on latest updates and courses offered by the apex training institution for officers and staff of Direct Taxes Administration ">National Academy of Direct Taxes</a>
+								</li>
+								<li><a href="http://www.irsofficersonline.org/" target="_blank" title="Comprehensive and accurate database of IRS officers">Indian Revenue Service</a>
+								</li>
+								<li><a href="http://www.cvc.nic.in/" target="_blank" class="last" title="Enables lodging of complaints against Ministries or Departments of Government of India ">Central Vigilance Commission</a>
+								</li>
+							</ul>
+				</li>
+				</ul>
+				</li>
+				<li class="separatorLeft"></li>
+				<li class="last_menu">
+						<li class="last_menu"><a href="/app/login.xhtml" title="Login">Login</a>
+						</li>
+				</li>
+			</ul>
+<div class="top_right">
+<form name="headerForm" action="/app/searchresult.xhtml" accept-charset="UTF-8" method="get">
+		<ul class="headerRight search_border" id="cssdropdown">
+			<li class="mainitems searchdown">
+				<a href="#">Search In 
+					<span class="downarrowclass"></span></a>
+					<ul class="subuls">
+								<li><a href="#" class="first" title="All"><input type="checkbox" onclick="g_SearchSelectAll(this);" id="all" name="all" checked="checked" />All</a>
+								</li>
+								<li><a href="#" title="e-Tutorials"><input type="checkbox" name="etutorial" checked="checked" onclick="g_SearchUnselectOne(this);" />e-Tutorials</a>
+								</li>
+								<li><a href="#" title="FAQs"><input type="checkbox" name="faq" checked="checked" onclick="g_SearchUnselectOne(this);" />FAQs</a>
+								</li>
+								<li><a href="#" title="Forms"><input type="checkbox" name="forms" checked="checked" onclick="g_SearchUnselectOne(this);" />Forms</a>
+								</li>
+								<li><a href="#" title="Rates and Tables"><input type="checkbox" name="ratable" checked="checked" onclick="g_SearchUnselectOne(this);" />Rates and Tables</a>
+								</li>
+								<!-- <li><a href="#" class="last"
+									title="Updates Archives"><input type="checkbox"
+										name="updates" checked="checked"
+										onclick="g_SearchUnselectOne(this);" />Updates Archives</a>
+								</li> -->
+				    </ul>
+		   </li>
+		   			
+				<li class="searchInput">
+						<input type="text" class="txtbox" autocomplete="off" onkeypress="return setFieldOnEnterHit(this,event)" name="key" id="key" value="Keyword" onclick="empty(this);" />
+					<a onclick="javascript:convertAndSubmit()" href="#">
+						<span class="lookup"></span>
+					</a>
+				</li>
+				
+		</ul>
+		</form>
+		<ul>
+			<li class="seperatorRight"></li>
+		</ul>
+			<ul class="headerRight" id="textSize">
+			   <li id="smallFont"><span id="font-small"><a href="#" class="styleswitch" rel="style-small" title="Small Font">A</a></span></li>
+			   <li id="largeFont" class="textActive"><span id="font-medium"><a href="#" class="styleswitch" rel="style-medium" title="Medium Font">A</a></span></li>
+			   <li id="largerFont"><span id="font-large"><a href="#" class="styleswitch" rel="style-large" title="Large Font">A</a></span></li>
+			</ul>
+			<ul>
+				<li class="seperatorRight"></li>
+				<li class="headerRightImg"><a id="bookmark" title="Bookmark" href="#">
+					<span class="bookmark" title="Bookmark"></span>
+					</a>
+				</li>
+				<li id="themes" class="headerRightImg">
+					<span id="t-gray"><a title="Gray Theme" rel="common-gray" id="c_digit" class="themeSelect pad0" href="#">
+						<span class="colorpref" title="Theme"></span></a></span>
+					<span id="t-blue" style="display: none;"><a title="Blue Theme" rel="common-blue" id="c_digit" class="themeSelect pad0" href="#">
+						<span class="colorpref" title="Theme"></span> </a></span>
+				</li>
+			</ul><form id="j_id27839938_263b8a84" name="j_id27839938_263b8a84" method="post" action="/app/login.xhtml" enctype="application/x-www-form-urlencoded">
+			<div id="language"><select name="j_id27839938_263b8a84:j_id27839938_263b8aaa" size="1" onchange="submit()">	<option value="en_US">English</option></select>
+			</div><input type="hidden" name="j_id27839938_263b8a84_SUBMIT" value="1" /><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="3Bz7zqyts1xLYfgF2/0GvyUY9P1XzQ0lqqJqW7+bSY1Wi+LnT22gRv+ML7WkGBG48chJHQsg3x242IABBQ605u6eEPxiIoWk9GF4XbpIppSDJy/UUGZwPgKifGY=" /></form>
+</div>
+	<script type="text/javascript"><!--
+
+	function empty(obj)
+	{
+         var val = obj.value;
+         if(val == "Keyword"){obj.value='';}
+	}
+	
+//--></script>
+			<div style="clear:both;"></div>
+		</div>	
+
+		<div>
+	         <div class="floatLeft marginLeft10">
+			       <div class="font20 logoArea1" title="TRACES - TDS Reconciliation Analysis and Correction Enabling System">
+			       <img src="https://downloads.tdscpc.gov.in/images/tds-logo.png" alt="tdscpc-logo" />
+			       	<a href="/app/redirecturlnoauth.xhtml?url=/home.html" id="home" class="menu"></a>
+			       </div>		  
+	         </div>
+	         <div class="rightFloat">
+               <div class="padLeft37 indianemblem" title="Government of India, Emblem"></div>
+	         </div>
+        </div>
+	
+<div style="clear:both;"></div>
+
+<div class="menuDiv">
+	<ul id="cssdropdown">
+		<li class="mainitems menuleft">
+			<div class="nonactive">
+				<a href="/en/home.html">
+					<span class="menuleftimg"></span>
+					<span class="menutext">Home</span>
+					<span class="menurightimg"></span>
+				</a>
+			</div>
+		</li>
+		<li class="mainitems">
+			<div class="">
+				<a href="/en/deductor-home.html">
+					<span class="menuleftimg"></span>
+					<span class="menutext">Deductor</span>
+					<span class="menurightimg"></span>
+				</a>
+			</div>
+		</li>
+	<!-- 	<li class="mainitems">
+			<div class="nonactive">
+				<a href="/en/intermediary-home.html">
+					<span class="menuleftimg"></span>
+					<span class="menutext">e-Intermediary</span>
+					<span class="menurightimg"></span>
+				</a>
+			</div>
+		</li> -->
+		<li class="mainitems">
+			<div class="">
+				<a href="/en/taxpayer-home.html">
+					<span class="menuleftimg"></span>
+					<span class="menutext">Tax Payer</span>
+					<span class="menurightimg"></span>
+				</a>
+			</div>
+		</li>
+		<li class="mainitems">
+			<div class="">
+				<a href="/app/redirecturlnoauth.xhtml?url=/pao-home.html">
+					<span class="menuleftimg"></span>
+					<span class="menutext">PAO</span>
+					<span class="menurightimg"></span>
+				</a>
+			</div>
+		</li>
+		<li class="mainitems helpmenu">
+			<div class="nonactive">
+				<a href="#">
+					<span id="pagehelp" title="Help">Help</span>
+				</a>
+			</div>
+		</li>
+	</ul>
+</div>
+				
+	</div>	
+	<div class="welcomeMenu">
+	 <br />
+  <noscript>
+<div class="jsError">
+<span class="errorImage"></span>
+<span class="infoMsg w775"><p class="mandatory">
+JavaScript is disabled in your browser. This might not allow you to login or perform certain activities on this website</p></span>
+</div>
+</noscript>
+		<!-- <span class="welcomeRight">
+		   	<a href="#" id="pagehelp" title="View Page Help"><span class="pagehelp"></span>	</a> 				
+		</span> -->
+	</div>
+
+<form id="loginForm" action="j_security_check" method="post">
+
+	
+	<div class="clear"></div>
+	<div id="content" class="padLeft10 linkSpace" style="padding-bottom:0px;">
+	<div style="clear:both;"></div>
+	<div id="subcontentlogin">
+	<div class="floarrightimp">
+	<h5 class="fieldLevelInfo clear width340 marginTop-13">
+	<span title="Info" class="infoImage"></span>
+	<div id="dedInfoMsg" style="display:none">
+	<span class="boldFont imageAlign marLeft3">For Deductors:</span>
+	<ul class="bulletUl marginLeft20" style="width:280px !important; text-align: justify;">
+	<li>If you are not yet registered in TRACES, you may login for first time with existing User Id &amp; Password as provided by TIN and your TAN</li>						
+	<li>If you are unable to login with TIN User Id &amp; Password, please register as new user in TRACES</li>
+	<li>If you are already registered in TRACES, please login with your registered User Id,  Password &amp; TAN</li>
+	</ul>
+	</div>
+	 <div id="tpInfoMsg" style="display:none">
+	<span class="boldFont imageAlign marLeft3">For Tax Payers:</span>
+	<ul class="bulletUl marginLeft20" style="width:280px !important;text-align: justify;">
+	<li>If you are already registered in TRACES, please login with your registered User Id (PAN), Password &amp; PAN else register as new user</li>	
+	<li>User can not enter details in column PAN for Tax Payer/AIN for PAO as column will be auto-populated on the basis of User Id entered by user.</li>					
+	</ul>
+	</div>
+	<span class="boldFont marginLeft20">Common Note:</span>
+	<ul class="bulletUl marginLeft20" style="width:280px !important;text-align: justify;">
+	<li>This website uses cookies to maintain user preference and session information. Disabling cookies in your browser might not allow you to perform certain activities</li>					
+	</ul>
+	</h5> 
+	</div>
+ 	<div class="loginLeft marginTop-13">
+	<div class="main_marquee marBottom0 marginLeft0 w640">
+		<marquee onmouseover="this.stop()" onmouseout="this.start()" scrollDelay="100" direction="left" scrollAmount="5" id="wind">
+			<ul class="bulletUl marquee30 boldFont w640">
+			<li class="redFont">CBDT's vide Notification No. 35/2020/F.No 370142/23/2020-TPL dated 24.06.2020, the revise timelines to furnish the TDS/TCS statement for Quarter 1 and Quarter 2 for F.Y 2020-21 has been extended till 31.03.2021.</li>
+			<li class="redFont">A new version(1.3L) of PDF Converter utility for PART B of Form 16 has been rolled out. Please download and use latest utility version for PART B of Form 16 requests</li>
+			<li class="redFont">TRACES offline utility V 5.0 for Form-13 is now available under &quot;Requested Downloads&quot;. Please upload latest utility generated output file.</li>
+			<li class="redFont">Please install latest TRACES WebSocket Emsigner Setup V2.0 to use Digital Signature functionality on Google Chrome, IE 10+ and Firefox browser.</li>
+			<li class="redFont">A new version(2.7) of Excel Generation utility for Justification report has been rolled out. Please download and use latest utility version for Justification report requests</li>
+
+
+
+			</ul>
+		</marquee>
+	</div>
+	<h1 class="tableList  marginTop5 ">Login</h1>
+	<div id="step3">
+	
+	 <div class="clear"></div>
+	 <p class="mandatory floatLeft marginLeft0 w640">	
+	 <span class="mandatory" id="err_Summary"><span id="message"></span>		
+		</span> 
+	</p>
+	<div class="clear"></div>
+	<br />
+	 <div id="radioDisp">
+        <table>
+            <tr>
+                <td class="subtitle radioButtonSpace">
+                    <input type="radio" name="search1" id="ded" tabindex="1" onclick="reloadDed()" />
+                    <label for="search1">Deductor</label>
+                </td>
+                  <td class="subtitle radioButtonSpace">
+                    <input type="radio" name="search2" id="tpao" tabindex="1" onclick="reloadTP()" />
+                    <label for="search2">Taxpayer/PAO</label>
+                </td>
+            </tr>
+        </table>
+        </div>
+	
+		<div class="spaceBox w635">
+			<p class="floatLeft">User Id<span class="mandatory">*</span></p>
+			<p class="marRight100 marginLeft180">
+			<a class="tooltip" border="0">
+     			 <span class="custom help">
+            		 1. User Id registered with TRACES<br />2. User Id for Deductor will be the value set during registration<br />3. User Id for Tax Payer will be PAN<br />4. User Id for PAO will be AIN
+      			</span>
+      		</a>
+				<input id="userId" type="text" class="frmtxtbox" autocomplete="off" name="username" maxlength="11" onchange="javascript:showCaptcha();" tabindex="2" />			
+			</p>			
+		</div>
+		<input type="hidden" name="j_username" id="hidUserId" class="frmtxtbox" maxlength="22" />
+		<input type="hidden" name="selradio" id="selradio" class="frmtxtbox" />
+		<input type="hidden" name="ticker" id="ticker" class="frmtxtbox" value="&lt;ul class=bulletUl marquee30 boldFont w640&gt;&lt;li class=redFont&gt;Online Correction related to  Form Type 24Q, Q4 for F.Y. 2021-22 has been enabled now.&lt;/li&gt;	&lt;li class=redFont&gt;A new utility version 2.7 of Excel Generation utility has been rolled out for Justification report. Please download and use latest utility version for Justification report requests.&lt;/li&gt;	&lt;li class=redFont&gt;A new utility version 1.7 and 1.4 has been rolled out for generation of Form-16 Part-A and Part-B respectively. Please download and use latest utility version for Form-16 requests.&lt;/li&gt;	&lt;li class=redFont&gt;Implementation in accordance with the Circular no 08/2021 dated 30th April 2021 for the extension of due date of statement filing and Challan Payment for form 26QB/26QC/26QD is under progress. On implementation, the relevant statements will be reprocessed as per extended dates.&lt;/li&gt;	&lt;li class=redFont&gt;In view of the CBDT notification dated 16th march 2021, online functionality to apply for Lower/Nil deduction certificate under section 195(2) is now available on TRACES.&lt;/li&gt;	&lt;li class=redFont&gt;Dear Users, while using the latest version of Google Chrome 87.0.4280.88, you may encounter a warning message regarding secure connection. Please note you may click on Send anyway and proceed further.&lt;/li&gt;	&lt;li class=redFont&gt;Please refer to the guidelines in circular No. 17 of 2020 dated September 29th, 2020 issued by TPL division of CBDT regarding the applicability of section 194-O and sub-section (1H) of section 206Cof I.T.Act 1961. Click to &lt;a target=_blank href=https://downloads.tdscpc.gov.in/images/Circular206C.pdf&gt;&lt;b&gt;&lt;u&gt;view pdf.&lt;/u&gt;&lt;/b&gt;&lt;/a&gt;&lt;/li&gt; &lt;li class=redFont&gt; Due to some changes in existing version 1.1 utility for generation of Form-27D has been rolled out. Please download and use latest utility for Form-27D requests.&lt;/li&gt;&lt;/ul&gt;	" />
+		
+		<div class="clear"></div>
+		<div>
+			<p class="floatLeft">Password<span class="mandatory">*</span></p>
+			<p class="marginLeft180">
+			<input id="psw" type="password" name="j_password" autocomplete="off" class="frmtxtbox" onchange="javascript:showCaptcha();" tabindex="3" /></p>	
+		</div>
+		<div class="clear"></div>
+		<div>
+			<p class="floatLeft" id="tanLbl" style="display:none">TAN for Deductor<span class="mandatory">*</span></p>
+            <p class="floatLeft" id="panLbl" style="display:none">PAN for Tax Payer /<br />AIN for PAO<span class="mandatory">*</span></p>
+            <p class="floatLeft" id="panLblforEverify" style="display:none">PAN for Tax Payer<span class="mandatory">*</span></p>
+			<p class="marginLeft180">
+				<input type="hidden" id="hidMob" />
+				<input type="hidden" id="hidvar" />
+				<input id="tanpan" type="text" class="frmtxtbox" autocomplete="off" name="j_tanPan" maxlength="10" tabindex="4" />
+			</p>
+		</div>
+		<br />
+				<div class="clear"></div>
+				<div id="captchaDiv" style="display:none">
+					<div class="spaceBox w635">
+						<p class="floatLeft margintop22">Verification Code<span class="mandatory">*</span></p>
+						<p class="marginLeft180">
+						<img id="captchaImg" class="captchaimg1" alt="Captcha" />
+						<a href="#" onClick="document.getElementById('captchaImg').src = '/app/srv/GetCaptchaImg?'+Math.random();" class="refreshimg" title="Refresh image" tabindex="5"></a>
+						<span class="captchaLabel">Click to refresh image</span></p>
+					</div>
+					<div class="clear"></div>
+					<br />
+					<div class="spaceBox w635">
+						<p class="floatLeft"><label>Enter text as in above image</label><span class="mandatory">*</span>
+						</p>
+						<p class="marginLeft180">
+							<input autocomplete="off" id="captcha" name="j_captcha" class="frmtxtbox" maxlength="5" required="true" requiredMessage="Fields marked with ‘*‘ are mandatory" tabindex="6" />
+							
+						</p>
+					</div>
+					<br />
+				</div>
+		<div class="clear"></div>
+		<div>
+			<p class="floatLeft"></p>
+			<p class="marginLeft180">
+				<input type="submit" value="Login" class="button" id="clickLogin" tabindex="7" />
+			</p>
+		</div>
+		<br />
+		<div>
+			<p class="floatLeft"></p>
+				<a href="#" id="register" title="Register as New User" class="underline padRight20" tabindex="8">Register as New User</a>
+			<a href="#" id="forgot" title="Forgot Password?" class="underline padRight20" tabindex="9">Forgot Password?</a>
+			<a href="/app/dedforgotuserid1.xhtml?type=deductor" id="forgotUserId" title="Forgot User Id (Deductor)?" class="underline padRight20" tabindex="10">Forgot User Id (Deductor)?</a>
+			
+		</div>
+ 	<h5 class="fieldLevelInfo floatLeft" style="display:none">
+	<span class="infoMsg w775">Release:1.4.143; Last Modified:21-Mar-2018 11:00PM</span>
+	</h5>	
+	</div>
+	</div>
+	</div>
+	</div>
+</form>
+
+<div id="select_typef" title="Forgot Password?" style="display: none">
+		<div id="Div2">
+		<p>Please select type of user:</p>
+		<p><br />
+		<select id="chooseAccountType_Overlayf">
+			<option value="/app/dedforgotpwds1.xhtml">Deductor</option>
+			<option value="/app/tpforgotpwds1.xhtml">Tax Payer</option>
+			<option value="/app/paoforgotpwds1.xhtml">PAO</option>
+		</select>
+		</p>
+		<br />
+	</div>
+</div>
+ <div id="select_typed" title="Register as New User" style="display: none">
+		<div id="subcontent">
+		<p>Please select type of user:</p>
+		<p><br />
+		<select id="chooseAccountType_Overlay">
+			<option value="/app/dedregs1.xhtml?type=deductor">Deductor</option>
+			<option value="/app/tapreg1.xhtml">Tax Payer</option>
+			<option value="/app/paoreg1.xhtml">PAO</option>
+			<option value="/app/dedregsFN1.xhtml?type=foreignNational">Deductor whose Authorized Person is a Foreign National</option>
+		</select>
+		</p>
+		<br />
+	</div>
+</div>
+	<div id="footer">
+		<ul>
+			<li class="marginLeft80">Copyright © 2012 Income Tax Department</li>
+			<li class="separator"></li>
+					<li><a href="/app/redirecturlnoauth.xhtml?url=/termsnconditions.html" title="Terms and Conditions">Terms and Conditions</a></li>
+					<li class="separator"></li>
+					<li><a href="/app/redirecturlnoauth.xhtml?url=/privacypolicy.html" title="Privacy Policy">Privacy Policy</a></li>
+					<li class="separator"></li>
+					<li><a href="/app/redirecturlnoauth.xhtml?url=/hyperlinkingpolicy.html" title="Hyperlinking Policy">Hyperlinking Policy</a></li>
+					<li class="separator"></li>
+					<li><a href="/app/feedback.xhtml" title="Feedback">Feedback</a></li>
+					<li class="separator"></li>
+					<li><a href="/app/redirecturlnoauth.xhtml?url=/sitemap.html" title="Sitemap">Sitemap</a></li>
+					<li class="marginLeft150"><img src="https://downloads.tdscpc.gov.in/images/Date.png" alt="last-update-date" /> </li>
+					<li class="separator"></li>
+					<li>Site best viewed on latest version of Internet Explorer, Mozilla Firefox  and Google Chrome </li>	
+		</ul>
+	</div>
+	<div id="helpRemoteId" title="Help" style="display: none">Loading...</div>
+	<div id="sessionTimeoutWarning" title="Session Expiration Warning" style="display: none">
+		<div id="subcontent">
+		<p>Time left for session to expire (in seconds):  <span id="sessionTimeoutCountdown"></span></p>
+		<p><br />
+		Click OK to continue your session.
+		</p>		
+		</div>
+	</div>	
+</div><input type="hidden" id="ButtonProceed" name="ButtonProceed" value="Proceed" /><input type="hidden" id="ButtonCancel" name="ButtonCancel" value="Cancel" /><input type="hidden" id="ButtonOK" name="ButtonOK" value="OK" /><input type="hidden" id="Proceed" name="Proceed" value="Proceed" /><input type="hidden" id="Cancel" name="Cancel" value="Cancel" /><input type="hidden" id="OK" name="OK" value="OK" />
+<script type="text/javascript"><!--
+
+	var g_ContextPath = '/app';
+	var g_PageHelper = "defaulthelp.html";
+
+//--></script>
+<script type="text/javascript" src="https://downloads.tdscpc.gov.in/js/jquery.min.static1.js"><!--
+
+//--></script>
+<script type="text/javascript" src="https://downloads.tdscpc.gov.in/js/common.min2.js"><!--
+
+//--></script>
+<script type="text/javascript" src="https://downloads.tdscpc.gov.in/js/app.min.js"><!--
+
+//--></script>
+<script type="text/javascript" src="https://downloads.tdscpc.gov.in/js/jquery.min.app.js"><!--
+
+//--></script>
+<script type="text/javascript" src="https://downloads.tdscpc.gov.in/js/browser_version.js"><!--
+
+//--></script>
+<script type="text/javascript"><!--
+
+var msg_err_mandatory = 'Fields marked with ‘*‘ are mandatory';
+var msg_err_invalid = 'Invalid details';
+var msg_err_tanformat;
+var msg_err_userId = 'User Id is not as per specified format';
+var msg_userId_mandatory = 'User Id is mandatory';
+var msg_pwd_mandatory = 'Password is mandatory';
+var msg_code_mandatory = 'Verification Code is mandatory';
+var msg_tanPan_mandatory;
+g_PageHelper="help-dl.html";
+var  isCaptchaLoaded = false;
+var radVal = '';
+$(document).ready( function() {
+
+var wind_string = document.getElementById("ticker").value;
+//alert(wind_string);
+document.getElementById('wind').innerHTML = wind_string;
+if(radVal != null && radVal != ''){
+	document.getElementById("selradio").value=radVal;
+}
+
+if(document.getElementById("ded").checked==true || document.getElementById("selradio").value=='D'
+	|| (localStorage.getItem('_usr') != null && localStorage.getItem('_usr') != '' && localStorage.getItem('_usr') == 'D')
+	|| (document.getElementById("hidMob").value != '' && document.getElementById("hidMob").value != null)){
+	localStorage.removeItem('_usr');
+	showOption1();
+}else if(document.getElementById("tpao").checked==true || document.getElementById("selradio").value=='T'
+	|| (localStorage.getItem('_usr') != null && localStorage.getItem('_usr') != '' && localStorage.getItem('_usr') == 'T')
+	|| document.getElementById("hidvar").value == "BankTP"){
+	localStorage.removeItem('_usr');
+	showOption2();
+}else{
+	showOption1();
+}
+
+document.getElementById('userId').focus();			
+	$("#clickLogin").click(function() {
+		g_ClearErrorMessage();
+		$("#message").text("");
+		 $.validator.addMethod("checkTANPAN", function(value, element) {
+                  var tp= document.getElementById("tanpan").value;
+                   if (document.getElementById("ded").checked==true || 
+                   			(document.getElementById("hidMob").value != '' && document.getElementById("hidMob").value != null)){
+						 //TAN check
+                 		 var Pattern2= /^([a-zA-Z]){4}([0-9]){5}([a-zA-Z]){1}?$/;
+						 if(tp.match(Pattern2)){
+	                  		return true;
+                		 }
+                  		 else{return false; }
+				   }else if (document.getElementById("tpao").checked==true ||
+				   				document.getElementById("hidvar").value == "BankTP"){
+						 //PAN check
+		                  var Pattern1= /^([a-zA-Z]){5}([0-9]){4}([a-zA-Z]){1}?$/;
+		                   //AIN check
+		                  var Pattern3= /^[0-9]{7}$/;
+		
+		                  if(tp.match(Pattern1) || tp.match(Pattern3)){
+			                  		return true;
+		                  }
+		                  else{return false; }
+				   }	
+             });	
+             
+             $.validator.addMethod("checkUserId", function(value, element) {
+                  var id= document.getElementById("userId").value;
+                  if (document.getElementById("tpao").checked==true ||
+                  		document.getElementById("hidvar").value == "BankTP"){
+						 //PAN check
+		                  var Pattern1= /^([a-zA-Z]){5}([0-9]){4}([a-zA-Z]){1}?$/;
+		                   //AIN check
+		                  var Pattern3= /^[0-9]{7}$/;
+		
+		                  if(id.match(Pattern1) || id.match(Pattern3)){
+			                  		return true;
+		                  }
+		                  else{return false; }
+				   }else{return true; }
+             });
+		jQuery.validator.addMethod('alphanumericsomespecial',function(em1, element) {
+		return this.optional(element)|| em1
+		.match(/^[a-zA-Z0-9^$.|?*+()\\{}@#$%*:`]+$/);
+		});
+		$("#loginForm").validate({
+		   onfocusout: function(element, event) { },
+			onkeyup: function(element, event) { },
+			rules : {
+				'username' : {required : true,alphanumericsomespecial : true, minlength: 6,checkUserId: true},
+				'j_password' : {required : true},
+				'j_tanPan' : {required : true,checkTANPAN: true},
+				'j_captcha' : {required : true}
+			},
+			messages : {
+				'username' : {required : msg_userId_mandatory,alphanumericsomespecial : msg_err_userId, minlength: msg_err_userId,checkUserId: msg_err_userId},
+				'j_password' : {required : msg_pwd_mandatory},
+				'j_tanPan' : {required : msg_tanPan_mandatory,checkTANPAN : msg_err_tanformat},
+				'j_captcha' : {required : msg_code_mandatory}
+			},
+			 submitHandler: function(){
+		 if(document.getElementById("hidMob").value != ''){
+			 	document.getElementById("hidUserId").value = document.getElementById("userId").value+'^'+document.getElementById("tanpan").value
+			 												+'^'+document.getElementById("hidMob").value+'^'+document.getElementById("hidemail").value
+			 												+'^'+document.getElementById("hidArPan").value+'^'+document.getElementById("hidCoPan").value
+			 												+'^'+document.getElementById("hidbnkCode").value;
+			 												
+			 }else if(document.getElementById("hidvar").value == "BankTP"){
+				document.getElementById("hidUserId").value = document.getElementById("userId").value+'^'+document.getElementById("tanpan").value
+															 +'^'+document.getElementById("bankcode").value+'^'+document.getElementById("everf").value;
+			}else{
+				document.getElementById("hidUserId").value = document.getElementById("userId").value+'^'+document.getElementById("tanpan").value;
+				if (document.getElementById("ded").checked==true){
+					document.getElementById("selradio").value="D";
+			 	}else if(document.getElementById("tpao").checked==true){
+					document.getElementById("selradio").value="T";
+			 	}
+			}
+	         document.getElementById('loginForm').submit(); 
+	         document.getElementById('clickLogin').disabled = true;       
+	         document.getElementById('loginForm').disabled = true;     
+          } 
+	  });
+	});
+	  
+	  $(function() {                                         
+        $('input[id$=psw]').bind('cut copy paste', function(e) {
+        e.preventDefault();
+        });     
+           $('#forgot').click(function () {
+			$('#select_typef').dialog({
+				modal: true,
+				buttons:[{
+		        text: document.getElementById("ButtonProceed").value,
+		        click: function () {
+		            var url = $('#chooseAccountType_Overlayf').val();
+					window.location=url;
+					$(this).dialog("close");
+		        }
+				}, 
+				{
+		        text: document.getElementById("ButtonCancel").value,
+		        click: function () {
+		            $(this).dialog("close");
+		        }
+		    	}] 
+			     });
+		       });
+		$('#register').click(function(){
+			$('#select_typed').dialog({
+				modal:true,
+				width : 362,
+				buttons:[{
+		        text: document.getElementById("ButtonProceed").value,
+		        click: function () {
+		            var url = $('#chooseAccountType_Overlay').val();
+							window.location=url;
+							$( this ).dialog( "close" );
+		        }
+				}, {
+		        text: document.getElementById("ButtonCancel").value,
+		        click: function () {
+		            $( this ).dialog( "close" );
+		        }
+		    	}] 
+			});
+		}); 
+      });           
+	
+	if(document.getElementById("hidvar").value == "BankTP"){
+		if(document.getElementById("bankpan").value != null){
+			showCaptcha();
+		}
+	}
+	
+});
+
+function showCaptcha(){
+	if (document.getElementById("tpao").checked==true){
+		if(document.getElementById("userId").value.length > 10){
+		//Defect 6019 Fix  -CR290 : Start
+		document.getElementById("err_Summary").innerHTML = "";
+		document.getElementById("err_Summary").innerHTML = msg_err_userId;
+		//Defect 6019 Fix  -CR290 : End
+		}else{
+			document.getElementById("tanpan").value=document.getElementById("userId").value;
+		}
+	}
+	$('#captchaDiv').show();
+		if(!isCaptchaLoaded){
+		isCaptchaLoaded = true;
+		document.getElementById("captchaImg").src= "/app/srv/GetCaptchaImg";
+	}
+}
+
+function showOption1(){
+	if(document.getElementById("hidMob").value == '' || document.getElementById("hidMob").value == null){
+    	document.getElementById("tanpan").value="";
+    	document.getElementById("selradio").value="D";
+    	document.getElementById("tpao").checked=false;
+    	document.getElementById("ded").checked=true;
+    	document.getElementById("radioDisp").style.display = "inline";
+    }else{
+    	document.getElementById("radioDisp").style.display = "none";
+    }
+	document.getElementById("dedInfoMsg").style.display = "inline";
+    document.getElementById("tpInfoMsg").style.display = "none";
+    document.getElementById("tanLbl").style.display = "inline";
+    document.getElementById("panLbl").style.display = "none";
+    document.getElementById("userId").value="";
+    document.getElementById("psw").value="";
+    document.getElementById("captcha").value="";
+    msg_tanPan_mandatory = 'TAN is mandatory';
+    msg_err_tanformat = 'TAN is not as per specified format';
+}
+
+function showOption2(){
+	if(document.getElementById("hidvar").value == "BankTP"){
+		document.getElementById("radioDisp").style.display = "none";
+		document.getElementById("panLbl").style.display = "none";
+		document.getElementById("panLblforEverify").style.display = "inline";
+	}else{
+    	document.getElementById("tanpan").value="";
+		document.getElementById("selradio").value="T";
+		document.getElementById("ded").checked=false;
+    	document.getElementById("tpao").checked=true;
+    	document.getElementById("userId").value="";
+    	document.getElementById("radioDisp").style.display = "inline";
+    	document.getElementById("panLbl").style.display = "inline";
+    	document.getElementById("panLblforEverify").style.display = "none";
+    }
+	document.getElementById("dedInfoMsg").style.display = "none";
+    document.getElementById("tpInfoMsg").style.display = "inline";
+    document.getElementById("tanLbl").style.display = "none";
+    document.getElementById("forgotUserId").style.display = "none";
+    document.getElementById("psw").value="";
+    document.getElementById("captcha").value="";
+    $("#tanpan").prop('readonly', true);
+     //CR-290 Changes : Observation 6021 - Removing error msg for AIN/PAN textbox
+    msg_tanPan_mandatory = '';
+    msg_err_tanformat = '';
+}
+
+function reloadTP(){
+	localStorage.setItem('_usr', 'T');
+	document.location.reload(true);
+}
+
+function reloadDed(){
+	localStorage.setItem('_usr', 'D');
+	document.location.reload(true);
+}
+
+//--></script>
+<script type="text/javascript"><!--
+
+  var path = "/"+ "en" + "/notes/";
+  $.idleTimer(5*60*1000);
+  autocomplete("/app/srv/SearchServlet?");
+  $('#pagehelp').click(function(){	
+		$('#helpRemoteId').dialog({
+			bigframe: true,show:"blind",width:750,height:550,modal: true, title: "Help",
+	        open: function () {
+	        	$(this).load( path + g_PageHelper);
+	         },
+	         buttons: [{
+	           text: document.getElementById("ButtonCancel").value,
+	           click: function () {  $(this).dialog("close");
+	         }
+	       }]
+ 		});
+ 		return false;
+	});
+
+//--></script>
+</html>

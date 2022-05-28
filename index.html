@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <!--Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&family=Montserrat:wght@100;300;400;700&family=Roboto:wght@400;700&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap icons cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+    />
+    <!-- Bootstrap css cdn link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Top nav -->
+    <nav class="navbar nav-1 navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><i class="bi bi-envelope"></i> contact@example.com
+         <span class="icon"> <i class="bi bi-phone"></i> +1 5589 55488 55</a
+        ></span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                ><i class="bi bi-twitter"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-linkedin"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-skype"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Main Nav -->
+    <nav class="navbar nav-2 navbar-expand-lg navbar-dark bg-dark ">
+      <div class="container">
+        <a class="navbar-brand" href="#">Remember</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="#services">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="#portfolio">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="#team">TEAM</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#faq"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                DROPDOWN
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#faq">DROPDOWN1</a></li>
+                <li><a class="dropdown-item" href="#faq">DROPDOWN2</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#faq">DROPDOWN3</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#faq">DROPDOWN4</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#faq">DROPDOWN5</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="#contact">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <div class="banner text-center">
+      <h2>Welcome to Remember</h2>
+      <p>We are team of talanted designers making websites with Bootstrap</p>
+      <button class="btn btn-lg btn-outline-success">Get Started</button>
+    </div>
+
+    <!-- About us -->
+    <div id="about" class="about mt-3 p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 fade-in reveal">
+          <iframe width="560" height="705" src="https://www.youtube.com/embed/Z-pT0XDYvDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class=" col-lg-6 fade-in reveal">
+            <div class="box-heading">
+              <h4>About us</h4>
+              <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
+              <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
+            </div>
+
+            <div class="icon-box reveal">
+              <i class="bi bi-fingerprint"></i>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            </div>
+
+            <div class="icon-box reveal" >
+             
+              <i class="bi bi-gift"></i> <h4 class="title"><a href="">Nemo Enim</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            </div>
+
+            <div class="icon-box reveal" >
+              
+             <i class="bi bi-filetype-js"></i> <h4 class="title"><a href="">Dine Pad</a></h4>
+              <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+            </div>
+         </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="why-us p-5 mt-3 text-center fade-in reveal">
+      <h4>Why Us</h4>
+      <h2>Why You Should <span class="choose">Choose Us?</span> </h2>
+    <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+  <div class="container">
+    <div class="row text-center g-4 mt-4">
+       <div class="col-lg-4 reveal">
+        <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h4 class="card-title card-heading">01</h4>
+    <h5 class="card-title ">Lorem Ipsum</h5>
+    <p class="card-text">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+    
+  </div>
+</div>
+      </div>
+      <div class="col-lg-4 reveal">
+        <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h4 class="card-title card-heading">02</h4>
+    <h5 class="card-title ">Repellat Nihil</h5>
+    <p class="card-text">Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para </p>
+    
+  </div>
+</div>
+      </div>
+      <div class="col-lg-4 reveal">
+        <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h4 class="card-title card-heading">03</h4>
+    <h5 class="card-title ">Ad ad velit qui
+</h5>
+    <p class="card-text">Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+    
+  </div>
+</div>
+      </div>
+     
+    </div>
+  </div>  
+  </div>
+  <div class="container">
+    <div class="row g-4 mt-4  text-center">
+      <div class="col-lg-12 reveal">
+        <!-- <em class="numbers">232</em>
+        <em class="des">Clients</em>
+        <em class="numbers">571</em>
+        <em class="des">Projects</em>
+        <em class="numbers">1431</em>
+        <em class="des">Hours Of Support</em>
+        <em class="numbers">15</em>
+        <em class="des">Hard Workers</em> -->
+        <em id="count1" class="numbers" ></em>
+        <em class="des">Clients</em>
+        <em id="count2" class="numbers" ></em>
+        <em class="des">Projects</em>
+        <em id="count3" class="numbers" ></em>
+        <em class="des">Hours Of Support</em>
+        <em id="count4" class="numbers" ></em>
+        <em class="des">Hard Workers</em>
+      </div>
+    </div>
+  </div>
+
+  <!-- Call to action -->
+  <div class="cta mt-5 text-center text-white reveal">
+    <h2>Call To Action</h2>
+    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</p>
+    <button class="btn btn-lg btn-outline-light">Call To Action</button>
+  </div>
+
+  <!-- services -->
+  <div id="services" class="services text-center p-5 mt-5 bg-light reveal">
+    <h4>Services</h4>
+    <h2>Our Awesome <span class="choose"> Services</span></h2>
+ <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+ 
+
+ <div class="container">
+    <div class="row my-4 g-4">
+      <div class="col-lg-4 reveal">
+        <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h4 class="card-title">01</h4>
+    <h4 class="card-title card-heading">Lorem Ipsum</h4>
+    
+    <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+    
+  </div>
+</div>
+      </div>
+        <div class="col-lg-4 reveal">
+        <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h4 class="card-title">02</h4>
+    <h4 class="card-title card-heading">Sed ut perspiciatis</h4>
+    
+    <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit </p>
+    
+  </div>
+</div>
+      </div>
+ <div class="col-lg-4 reveal">
+        <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h4 class="card-title">03</h4>
+    <h4 class="card-title card-heading">Magni Dolores</h4>
+    
+    <p class="card-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui </p>
+    
+  </div>
+</div>
+      </div>
+      <div class="col-lg-4 reveal">
+        <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h4 class="card-title">04</h4>
+    <h4 class="card-title card-heading">Nemo Enim</h4>
+    
+    <p class="card-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+    
+  </div>
+</div>
+      </div>
+      <div class="col-lg-4 reveal">
+        <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h4 class="card-title">05</h4>
+    <h4 class="card-title card-heading">Dele cardo</h4>
+    
+    <p class="card-text">Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+    
+  </div>
+</div>
+      </div>
+      <div class="col-lg-4 reveal">
+        <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h4 class="card-title">06</h4>
+    <h4 class="card-title card-heading">Divera don</h4>
+    
+    <p class="card-text">Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+    
+  </div>
+</div>
+      </div>
+    
+     
+    </div>
+  </div>
+  </div>
+
+  <!-- Portfolio -->
+  <div id="portfolio" class="portfolio mt-4 p-5 text-center reveal">
+    <h4>Portfolio</h4>
+    <h3>Check our <span class="choose"> Portfolio</span></h3>
+    <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+    <div class="container">
+   <div class="row">
+     <div class="col-lg-12 reveal">
+ <em class="p-info">All</em>   
+ <em class="p-info">App</em>
+ <em class="p-info">Card</em>
+ <em class="p-info">Web</em>
+     </div>
+   </div>
+ </div>
+    <div class="container">
+      <div class="row mt-4 g-4">
+        <div class="col-lg-4 reveal">
+          <img class="img-fluid" src="images\portfolio-1.jpg" alt="">
+        </div>
+        <div class="col-lg-4 reveal">
+          <img class="img-fluid" src="images\portfolio-2.jpg" alt="">
+        </div>
+        <div class="col-lg-4 reveal">
+          <img class="img-fluid" src="images\portfolio-3.jpg" alt="">
+        </div>
+        <div class="col-lg-4 reveal">
+          <img class="img-fluid" src="images\portfolio-4.jpg" alt="">
+        </div>
+        <div class="col-lg-4 reveal">
+          <img class="img-fluid" src="images\portfolio-5.jpg" alt="">
+        </div>
+        <div class="col-lg-4 reveal">
+          <img class="img-fluid" src="images\portfolio-6.jpg" alt="">
+        </div>
+        <div class="col-lg-4 reveal">
+          <img class="img-fluid" src="images\portfolio-7.jpg" alt="">
+        </div>
+        <div class="col-lg-4 reveal">
+          <img class="img-fluid" src="images\portfolio-8.jpg" alt="">
+        </div>
+        <div class="col-lg-4 reveal">
+          <img class="img-fluid" src="images\portfolio-9.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Team -->
+  <div id="team" class="team p-5 mt-4 text-center reveal">
+    <h4>Team</h4>
+    <h3>Our Hard Working <span class="choose">Team</span> </h3>
+    <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+    <div class="container">
+      <div class="row mt-4 g-5">
+        <div class="col-lg-3 reveal">
+        <div class="card me-5" style="width: 18rem;">
+  <img  src="images\team-1.jpg" class="card-img-top img-fluid" alt="...">
+  <div class="card-body">
+    <h4 class="card-title">Walter White</h4>
+    <p class="card-text">
+CEO</p>
+  </div>
+</div>
+      </div>
+        <div class="col-lg-3 reveal">
+        <div class="card me-5" style="width: 18rem;">
+  <img src="images\team-2.jpg" class="card-img-top img-fluid" alt="...">
+  <div class="card-body">
+    <h4 class="card-title">Sarah Jhonson</h4>
+    <p class="card-text">
+Product Manager</p>
+  </div>
+</div>
+      </div>
+        <div class="col-lg-3 reveal">
+        <div class="card me-5" style="width: 18rem;">
+  <img src="images\team-3.jpg" class="card-img-top img-fluid" alt="...">
+  <div class="card-body">
+    <h4 class="card-title">William Anderson</h4>
+    <p class="card-text">
+CTO</p>
+  </div>
+</div>
+      </div>
+        <div class="col-lg-3 reveal">
+        <div class="card me-5" style="width: 18rem;">
+  <img src="images\team-4.jpg" class="card-img-top img-fluid" alt="...">
+  <div class="card-body">
+    <h4 class="card-title">Amanda Jepson</h4>
+    <p class="card-text">
+Accountant</p>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- FAQ -->
+  <div id="faq" class="faq text-center bg-light t p-5 mt-5 reveal">
+    <h4>FAQ</h4>
+    <h3>Frequently Asked <span class="choose"> Questions</span></h3>
+  <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item reveal">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <em class="p-info">01</em> What is your Name?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item reveal">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <em class="p-info">02</em> Where do you live?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item reveal">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <em class="p-info">03</em> What are your qualifications?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item reveal">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+    <em class="p-info">04</em> What Skills Do you have?
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item reveal">
+    <h2 class="accordion-header" id="headingFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        <em class="p-info">05</em> What do you want to learn?
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>  
+</div>
+
+<!-- Contact -->
+<div id="contact" class="contact reveal mt-5 p-5 text-center text-white position-relative">
+  <h2>Remember</h2>
+  <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.
+
+</p>
+<div class="conatiner">
+  <div class="row">
+    <div class="col-lg-12">
+<div class="input-group contact-input mb-3">
+  <input type="text" class="form-control" placeholder="Enter Your Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+  <button class="btn btn-lg btn-outline-success" type="button" id="button-addon2">Subscribe</button>
+
+</div>
+
+<div class="conatiner">
+  <div class="row">
+    <div class="col-lg-12">
+<i class="bi bi-twitter"></i>
+<i class="bi bi-facebook"></i>
+  <i class="bi bi-instagram"></i>
+    <i class="bi bi-skype"></i>
+    <i class="bi bi-linkedin"></i>
+    </div>
+  </div>
+</div>
+<hr>
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-lg-6">
+      © Copyright Remember. All Rights Reserved
+    </div>
+    <div class="col-lg-6 footer-des">
+    Designed by <span class="choose"> BootstrapMade. </span>
+    </div>
+  </div>
+</div>
+<a href="#" class="position-absolute bottom-0 end-0 p-5"
+        ><i class="bi bi-arrow-up-circle h1"></i
+      ></a>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+    <!-- Bootstrap js cdn  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FadeIn on scroll -->
+    <script>
+      window.addEventListener("scroll", reveal);
+      function reveal(){
+        var reveals=document.querySelectorAll(".reveal");
+        for(var i=0; i<reveals.length; i++){
+          var windowHeight=window.innerHeight;
+          var revealTop=reveals[i].getBoundingClientRect().top;
+          var revealPoint=150;
+
+          if(revealTop<windowHeight-revealPoint){
+            reveals[i].classList.add("active");
+          }
+          else{
+            reveals[i].classList.remove("active");
+          }
+         }
+        }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  
+  </body>
+</html>
